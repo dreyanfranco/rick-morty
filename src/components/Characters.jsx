@@ -29,7 +29,6 @@ const Characters = () => {
 
     const handleSearch = (event) => {
         const query = event.target.value.toLowerCase()
-        console.log(characters)
         setSearchQuery(characters.filter(character => character.name.toLowerCase().includes(query)))
     }
 
