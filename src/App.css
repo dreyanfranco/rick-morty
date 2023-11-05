@@ -1,0 +1,16 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 45px;
+}
+
+.logo {
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        max-width: 100%;
+    }
+}
